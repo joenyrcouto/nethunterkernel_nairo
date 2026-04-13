@@ -1,19 +1,22 @@
-Linux kernel
-============
+![logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStuxbN7ftd4g3IAD97w7lnf1NKzjPCq68USw&usqp=CAU)
 
-There are several guides for kernel developers and users. These guides can
-be rendered in a number of formats, like HTML and PDF. Please read
-Documentation/admin-guide/README.rst first.
+# what the kernel brings? 
+Kernel brings wifi adapters, not is all adapters works, not forget of 
+install drives to adapters in magisk.
 
-In order to build the documentation, use ``make htmldocs`` or
-``make pdfdocs``.  The formatted documentation can also be read online at:
+# Tested adapters:
+TL-WN722N V1 - works :)
 
-    https://www.kernel.org/doc/html/latest/
+mt7601u - don't worked :/
 
-There are various text files in the Documentation/ subdirectory,
-several of them using the Restructured Text markup notation.
-See Documentation/00-INDEX for a list of what is contained in each file.
+# how to install? 
+Use twrp.
 
-Please read the Documentation/process/changes.rst file, as it contains the
-requirements for building and running the kernel, and information about
-the problems which may result by upgrading your kernel.
+# works just android 8.1?
+No, other versions should work.
+
+# works HID? 
+No.
+
+# which model works?
+j410g and j410f works.
